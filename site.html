@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Corrida - Saúde e Estilo de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Corrida - Saúde e Estilo de Vida</h1>
+        <nav>
+            <ul>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#tipos">Tipos de Corrida</a></li>
+                <li><a href="#equipamentos">Equipamentos</a></li>
+                <li><a href="#nutricao">Nutrição</a></li>
+                <li><a href="#lesoes">Prevenção de Lesões</a></li>
+                <li><a href="#comunidade">Comunidade</a></li>
+                <li><a href="#tendencias">Tendências</a></li>
+                <li><a href="#motivacao">Motivação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+    <main>
+        <section id="beneficios" class="section">
+            <article>
+                <h2>Benefícios da Corrida para a Saúde</h2>
+                <p><strong>Melhora cardiovascular:</strong> A corrida aumenta a capacidade pulmonar e a eficiência do coração, reduzindo a pressão arterial e melhorando o perfil lipídico. Estudos mostram que correr regularmente pode diminuir o risco de infarto em até 45%. 
+                <br>
+                <strong>Aumento da resistência:</strong> A prática regular de corrida leva a adaptações fisiológicas, como aumento do volume sanguíneo e da densidade capilar, permitindo que o corpo transporte mais oxigênio para os músculos. 
+                <br>
+                <strong>Controle de peso:</strong> A corrida é uma das atividades que mais queima calorias. Por exemplo, uma pessoa de 70 kg pode queimar cerca de 600 a 800 calorias em uma corrida de 10 km, dependendo da intensidade.
+                <br>
+                <strong>Benefícios mentais:</strong> O fenômeno conhecido como "high runner" é a sensação de euforia que muitos corredores experimentam, resultante da liberação de endorfinas e neurotransmissores que ajudam a combater a depressão e a ansiedade.</p>
+            </article>
+            <img src="beneficios.jpg" alt="Pessoa correndo em um parque" class="section-img">
+        </section>
+
+        <section id="tipos" class="section">
+            <article>
+                <h2>Tipos de Corrida</h2>
+                <p><strong>Corrida de rua:</strong> Acessível e popular, essa modalidade varia de distâncias curtas (5 km) a longas (maratonas). As corridas urbanas costumam ter um ambiente festivo, com participantes de todos os níveis.
+                <br>
+                <strong>Trail running:</strong> Além do desafio físico, correr em trilhas proporciona uma conexão profunda com a natureza, ajudando a melhorar o equilíbrio e a força muscular devido à variação do terreno.
+                <br>
+                <strong>Corrida de pista:</strong> Ideal para quem busca melhorar o tempo e a técnica, essa modalidade é regulamentada e possui distâncias padronizadas. A pista também permite treinos focados em velocidade.
+                <br>
+                <strong>Corrida de montanha:</strong> Com terrenos acidentados e inclinações, essa modalidade exige força, resistência e técnica. As competições podem incluir subidas íngremes e descidas técnicas.</p>
+            </article>
+            <img src="tipos.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+
+        <section id="equipamentos" class="section">
+            <article>
+                <h2>Equipamentos e Acessórios</h2>
+                <p><strong>Tênis adequados:</strong> É importante considerar fatores como tipo de pisada (pronadora, neutra ou supinadora) e tipo de superfície ao escolher os tênis. Um bom par pode prevenir lesões como fascite plantar e tendinite.
+                <br>
+                <strong>Roupas tecnológicas:</strong> Materiais como poliamida e elastano ajudam a regular a temperatura corporal e afastar a umidade, mantendo o corredor confortável durante a atividade.
+                <br>
+                <strong>Relógios e aplicativos de corrida:</strong> Além de monitorar tempo e distância, muitos oferecem métricas avançadas, como VO2 máximo e cadência, ajudando no aprimoramento da performance.
+                <br>
+                <strong>Hidratantes e géis energéticos:</strong> Durante corridas longas, é essencial reabastecer eletrólitos e carboidratos para evitar a fadiga. Os géis energéticos, por exemplo, fornecem uma fonte rápida de energia.</p>
+            </article>
+            <img src="equipamentos.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+
+        <section id="nutricao" class="section">
+            <article>
+                <h2>Nutrição para Corredores</h2>
+                <p><strong>Alimentos antes e depois da corrida:</strong> Carboidratos de fácil digestão, como bananas ou barras de cereal, são ideais antes da corrida. Após a atividade, uma combinação de proteínas e carboidratos (ex.: um smoothie de iogurte com frutas) ajuda na recuperação.
+                <br>
+                <strong>Importância da hidratação:</strong> A desidratação pode levar a uma queda significativa no desempenho. É recomendado beber água antes, durante (a cada 20 minutos) e após a corrida.
+                <br>
+                <strong>Suplementos populares:</strong> Os BCAAs (aminoácidos de cadeia ramificada) podem ajudar na recuperação muscular, enquanto a creatina é usada por alguns para aumentar a potência em treinos de alta intensidade.</p>
+            </article>
+            <img src="nutricao.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+
+        <section id="lesoes" class="section">
+            <article>
+                <h2>Prevenção de Lesões</h2>
+                <p><strong>Lesões comuns entre corredores:</strong> Além das já mencionadas, outras lesões como a síndrome da banda iliotibial e o joelho de corredor são frequentes e podem ser prevenidas com treinamento adequado.
+                <br>
+                <strong>Alongamento e aquecimento:</strong> Um aquecimento eficaz deve incluir movimentos dinâmicos que ativem os músculos. Após a corrida, o alongamento estático ajuda na recuperação e flexibilidade.
+                <br>
+                <strong>Fortalecimento muscular:</strong> Exercícios como agachamentos, lunges e exercícios de core são essenciais para equilibrar a musculatura e prevenir lesões.</p>
+            </article>
+            <img src="lesoes.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+
+        <section id="comunidade" class="section">
+            <article>
+                <h2>Comunidade de Corredores</h2>
+                <p><strong>Grupos de corrida:</strong> Além da motivação, esses grupos oferecem a chance de aprender com corredores mais experientes, participar de treinos em conjunto e socializar.
+                <br>
+                <strong>Eventos e meetups:</strong> Muitas corridas têm um caráter festivo, promovendo não apenas a competição, mas também a socialização e a conscientização sobre temas importantes. 
+                <br>
+                <strong>Redes sociais e plataformas para corredores:</strong> Plataformas como Strava ou RunKeeper permitem que os corredores compartilhem seus treinos, estabeleçam desafios e interajam com outros corredores globalmente.</p>
+            </article>
+            <img src="comunidade.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+        <section id="tendencias" class="section">
+            <article>
+                <h2>Tendências na Corrida</h2>
+                <p><strong>Corridas virtuais:</strong> Com o aumento das plataformas digitais, muitos corredores optam por participar de eventos virtuais que oferecem flexibilidade e acessibilidade.
+                <br>
+                <strong>Uso de tecnologia:</strong> A análise de dados através de aplicativos e wearables permite um acompanhamento mais preciso do progresso, oferecendo feedback para melhorar a performance. 
+                <br>
+                <strong>Corridas temáticas e inovadoras:</strong> Eventos como color runs ou corridas noturnas atraem novos públicos, tornando a experiência de correr mais divertida e social.
+                </p>
+            </article>
+            <img src="tendencias.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+        <section id="motivacao" class="section">
+            <article>
+                <h2>Motivação e Mentalidade</h2>
+                <p><strong>Como manter a motivação:</strong> O uso de metas desafiadoras, mas realistas, e a busca de novos desafios (como participar de uma nova distância) podem manter o interesse na corrida. 
+                <br>
+                <strong>Estabelecimento de metas:</strong> Além das metas de tempo e distância, é útil incluir objetivos relacionados à saúde e bem-estar, como correr regularmente por um determinado número de dias.
+                <br>
+                <strong>Superação de desafios:</strong> A resiliência é uma habilidade que se desenvolve com a experiência. Aprender a lidar com lesões, desânimos ou condições climáticas adversas é fundamental.</p>
+            </article>
+            <img src="motivacao.jpg" alt="Corrida em trilhas" class="section-img">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Saúde e Estilo de Vida. Todos os direitos reservados Mariana Passos Xavier.</p>
+    </footer>
+</body>
+</html>

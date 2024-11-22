@@ -1,0 +1,100 @@
+/* Variáveis */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #f4f4f4;
+    --text-color: #333;
+    --font-family: 'Arial', sans-serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 0;
+    font-size: x-large;
+    text-shadow: 1px 1px 1px #8e8e8e;
+    box-shadow: 0.5px 0.5px 6px #8e8e8e;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: 5px;
+}
+
+header nav ul li a:hover {
+    color: #ff5654;
+    text-shadow: 0.5px 0.5px 6px #545454;
+}
+
+/* Sections */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2:hover, strong:hover{
+    color: #4CAF50;
+    text-shadow: 0.5px 0.5px 0.5px #f4f1f1;
+}
+
+section:hover{
+    background-color: #fafafa;
+    font-size: large;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 6px #8e8e8e;
+}
+
+.section-img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    color: #fff;
+    box-shadow: 0.5px 0.5px 6px #8e8e8e;
+    border-radius: 20px 20px 0px 0px;
+    text-shadow: 1px 1px 1px #8e8e8e;
+
+
+}
